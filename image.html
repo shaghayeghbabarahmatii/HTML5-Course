@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Images in HTML5</title>
+        <link rel="icon" type="image/png" href="./images/devices.png">
+    </head>
+    <body>
+        <picture>
+            <source srcset="./images/phone.jpeg" media="(max-width: 767px)" style="width: 450px;">
+            <source srcset="./images/tablet.webp" media="(max-width: 1023px)" style="width: 450px;">
+            <source srcset="./images/laptop.webp" media="(min-width: 1024px)" style="width: 450px;">
+            <img src="./images/devices.webp" alt="A picture of Devices" width="450px" height="">
+        </picture>
+    </body>
+</html>
