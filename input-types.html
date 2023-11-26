@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Input Types</title>
+        <style>
+            #button{
+                margin-right: 15px;
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" autocomplete="off">
+            <fieldset style="width: 250px;">
+                <legend>Input Types</legend>
+                <br>
+
+                <div>
+                    <label for="color">Color Type:</label>
+                    <br>
+                    <input type="color" id="color" value="#1F9AA3">
+                </div>
+                <br>
+
+                <div>
+                    <label for="date">Date Type:</label>
+                    <br>
+                    <input type="date" id="date" value="10/17/2023">
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Email Type:</label>
+                    <br>
+                    <input type="email" id="email">
+                </div>
+                <br>
+
+                <div>
+                    <label for="file">File Type:</label>
+                    <br>
+                    <input type="file" id="file">
+                </div>
+                <br>
+
+                <div>
+                    <label>Hidden Type:</label>
+                    <br>
+                    <input type="hidden" value="This is a Hidden text">
+                </div>
+                <br>
+
+                <div>
+                    <label for="number">Number Type:</label>
+                    <br>
+                    <input type="number" id="number">
+                </div>
+                <br>
+
+                <div>
+                    <label for="password">Password Type:</label>
+                    <br>
+                    <input type="password" id="password">
+                </div>
+                <br>
+
+                <div>
+                    <label for="range">Range Type:</label>
+                    <br>
+                    <input type="range" min="0" max="100" value="30" id="range">
+                </div>
+                <br>
+            </fieldset>
+
+            <br>
+
+            <fieldset style="width: 250px; text-align: center">
+                <button type="submit" id="button">Submit</button>
+                <button type="reset" id="button">Reset</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
